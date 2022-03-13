@@ -124,7 +124,7 @@ student_1 = Student("Василий", "Васильев", "м")
 student_2 = Student("Ольга", "Иванова", "ж")
 lecturer_1 = Lecturer("Сергей", "Сергеев")
 lecturer_2 = Lecturer("Василиса", "Попова")
-reviewer_1 = Reviewer("Анастас", "Микаян")
+reviewer_1 = Reviewer("Анастас", "Микоян")
 reviewer_2 = Reviewer("Магамед", "Магамедов")
 
 student_1.courses_in_progress += ["Python", "Git", "SQL"]
