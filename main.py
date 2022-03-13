@@ -124,7 +124,7 @@ student_1 = Student("Василий", "Васильев", "м")
 student_2 = Student("Ольга", "Иванова", "ж")
 lecturer_1 = Lecturer("Сергей", "Сергеев")
 lecturer_2 = Lecturer("Василиса", "Попова")
-reviewer_1 = Reviewer("Анастас", "Микаян")
+reviewer_1 = Reviewer("Анастас", "Микоян")
 reviewer_2 = Reviewer("Магамед", "Магамедов")
 
 student_1.courses_in_progress += ["Python", "Git", "SQL"]
@@ -160,6 +160,3 @@ print(lecturer_1 < lecturer_2, end="\n\n")
 
 student_average_grade_for_course([student_1, student_2], "Python")
 lecturer_average_grade_for_course([lecturer_1, lecturer_2], "Git")
-
-
-print(student_1)
