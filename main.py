@@ -160,6 +160,3 @@ print(lecturer_1 < lecturer_2, end="\n\n")
 
 student_average_grade_for_course([student_1, student_2], "Python")
 lecturer_average_grade_for_course([lecturer_1, lecturer_2], "Git")
-
-
-print(student_1)
